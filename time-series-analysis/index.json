@@ -1,0 +1,30 @@
+{
+  "title": "Anoamly detection for time series metrics",
+  "description": "Introduction of how to perform anomaly detection on Prometheus metrics",
+  "difficulty": "Intermediate",
+  "time": "45 minutes",
+  "details": {
+    "steps": [
+      {
+        "title": "Step 1",
+        "text": "step1.md"
+      },
+      {
+        "title": "Step 2",
+        "text": "step2.md"
+      }
+    ],
+    "intro": {
+      "text": "intro.md"
+    },
+    "finish": {
+      "text": "finish.md"
+    }
+  },
+  "environment": {
+    "uilayout": "terminal"
+  },
+  "backend": {
+    "imageid": "jupyterhub"
+  }
+}
