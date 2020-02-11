@@ -1,10 +1,10 @@
 pip install --upgrade pip
-git clone https://github.com/kavgan/word_cloud 
-cd word_cloud && pip install -e . 
+git clone https://github.com/kavgan/word_cloud
+cd word_cloud && pip install -e .
 cp  ~/word_cloud/*clouds.ipynb  ~/work/Example_word_clouds.ipynb
 pip install plotly 
-pip install matplotlib_venn 
-pip install cufflinks 
+pip install matplotlib_venn
+pip install cufflinks
 pip install gender-guesser
 pip install -U nltk
 # apparently the base image already contain ipywidgets
@@ -36,4 +36,4 @@ mv DataAnalytics--IntroductionDataWrangling-JupyterNotebooks/Titanic ~/work
 git clone https://github.com/hemajv/prometheus-anomaly-detection-workshop
 cd prometheus-anomaly-detection-workshop
 #cd ~/work
-rm -Rf temp 
+rm -Rf temp
