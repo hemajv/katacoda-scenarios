@@ -1,9 +1,7 @@
-The [Project Jupyter](https://jupyter.org/) web site describes Jupyter notebooks as:
+# Introduction
 
-> an open-source web application that allows you to create and share documents that contain live code, equations, visualizations and narrative text. Uses include: data cleaning and transformation, numerical simulation, statistical modeling, data visualization, machine learning, and much more.
+In this course you will learn how to train a machine learning model on Prometheus metrics to perform time series forecasting and predict anomalies.
 
-Jupyter notebooks can be deployed direct to Linux, macOS or Windows environments, or in containerized environments such as Docker, Kubernetes and OpenShift.
+We will use a Jupyter notebook to interact with a Prometheus instance which is currently being deployed.
 
-In this workshop you will learn how you can build a custom container image which incorporates a set of Jupyter notebooks and the packages they require, and deploy the image to OpenShift.
-
-The examples shown will make use of sample Jupyter notebook images and templates from the [Jupyter on OpenShift](https://github.com/jupyter-on-openshift) project, a community project for demonstrating how Jupyter notebooks and JupyterHub can be deployed to OpenShift.
+Please give the environment a couple of minutes to set up.
