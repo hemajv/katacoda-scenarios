@@ -13,7 +13,7 @@ curl https://raw.githubusercontent.com/jupyter-on-openshift/jupyter-notebooks/2.
 
 # set up Notebooks
 oc process -f ./notebook-imagestream.yaml | oc apply -f - -n myproject
-oc process notebook-deployer -p APPLICATION_NAME=prometheus-anomaly-detection-workshop -p NOTEBOOK_IMAGE=prometheus-anomaly-detection-workshop:prometheus-timeseries-forecasting-katacoda -p NOTEBOOK_PASSWORD=secret | oc apply -f - -n myproject
+oc process notebook-deployer -p APPLICATION_NAME=prometheus-anomaly-detection-workshop -p NOTEBOOK_IMAGE=prometheus-anomaly-detection-workshop:prometheus-timeseries-forecasting-katacoda -p NOTEBOOK_PASSWORD=secret -p NOTEBOOK_MEMORY=2Gi | oc apply -f - -n myproject
 clear
 echo -e "Waiting for metrics data to be generated... (This might take a couple minutes)"
 until [ "$(oc get job prometheus-generate-data -o jsonpath='{.status.succeeded}' -n myproject &)" = "1" ];
