@@ -16,13 +16,13 @@
     },
     "details": {
         "steps": [{
-            "title": "Using SARIMA model to forecast timeseries metrics",
+            "title": "SARIMA model to forecast timeseries metrics",
             "text": "01-loading-the-notebook-images.md"
         }, {
             "title": "Using a Jupyter Notebook to play with the SARIMA model",
             "text": "02-loading-the-notebook-templates.md"
         }, {
-            "title": "Topic 3 - Accessing the Web Console",
+            "title": "Accessing the OpenShift Web Console",
             "text": "03-accessing-the-web-console.md"
         }],
         "intro": {
@@ -34,9 +34,7 @@
             "text": "finish.md"
         },
         "assets": {
-          "host01": [{"file": "deploy-prometheus.yaml", "target": "~/"},
-                     {"file": "volumes.json", "target": "~/"},
-                     {"file": "generate-metrics.yaml", "target": "~/"},
+          "host01": [{"file": "volumes.json", "target": "~/"},
                      {"file": "notebook-imagestream.yaml", "target": "~/"},
                      {"file": "setup.sh", "target": "~/"}
                     ]
