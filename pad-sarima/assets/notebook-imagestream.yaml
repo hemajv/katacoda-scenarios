@@ -9,7 +9,7 @@ objects:
       name: prometheus-anomaly-detection-workshop
     spec:
       tags:
-        - name: 'prometheus-api-client-katacoda'
+        - name: 'prometheus-timeseries-forecasting-katacoda'
           from:
             kind: DockerImage
             name: 'quay.io/hveeradh/prometheus-anomaly-detection-workshop:prometheus-timeseries-forecasting-katacoda'
