@@ -34,8 +34,7 @@
             "text": "finish.md"
         },
         "assets": {
-          "host01": [{"file": "volumes.json", "target": "~/"},
-                     {"file": "notebook-imagestream.yaml", "target": "~/"},
+          "host01": [{"file": "notebook-imagestream.yaml", "target": "~/"},
                      {"file": "setup.sh", "target": "~/"}
                     ]
         }
