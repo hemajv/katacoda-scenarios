@@ -11,5 +11,5 @@ oc process -f ./notebook-imagestream.yaml | oc apply -f - -n myproject
 oc process notebook-deployer -p APPLICATION_NAME=pad-workshop -p NOTEBOOK_IMAGE=prometheus-anomaly-detection-workshop:prometheus-timeseries-forecasting-katacoda -p NOTEBOOK_PASSWORD=secret -p NOTEBOOK_MEMORY=2Gi | oc apply -f - -n myproject
 clear
 
-echo -e "The environment should be ready in a few seconds"
-echo -e "The url to access the Jupyter Notebooks is: \n http://$(oc get route pad-workshop -o jsonpath='{.spec.host}' -n myproject) \n\n"
+echo -e "The environment should be ready in a few minutes. Login to the OpenShift web console to check if the pod is ready."
+echo -e "Once the pod is ready, the url to access the Jupyter Notebooks is: \n http://$(oc get route pad-workshop -o jsonpath='{.spec.host}' -n myproject) \n\n"
