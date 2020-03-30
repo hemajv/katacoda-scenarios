@@ -19,14 +19,13 @@
             "title": "SARIMA model to forecast timeseries metrics",
             "text": "01-loading-the-notebook-images.md"
         }, {
-            "title": "Accessing the OpenShift Web Console",
-            "text": "02-accessing-the-web-console.md"
-        }, {
             "title": "Using a Jupyter Notebook to play with the SARIMA model",
-            "text": "03-loading-the-notebook-templates.md"
+            "text": "02-loading-the-notebook-templates.md"
+        }, {
+            "title": "Accessing the OpenShift console",
+            "text": "03-accessing-the-web-console.md"
         }],
         "intro": {
-            "courseData": "env-init.sh",
             "code": "set-env.sh",
             "text": "intro.md"
         },
